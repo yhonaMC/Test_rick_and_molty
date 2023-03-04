@@ -1,0 +1,55 @@
+.character-episode{
+  text-decoration: none;
+  .episode{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 80px;
+    position: relative;
+    
+    .character-episode-title{
+      line-height: 22px;
+      font-size: 17px;
+      text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      @media screen and (max-width: 399px) {
+        font-size: 15px;
+      }
+    }
+    
+    .more-info{
+      position: absolute;
+      text-decoration: underline;
+      text-underline-position: under;
+      font-size: 11px;
+      bottom: 10px;
+      left: 15px;
+
+      
+
+      @media screen and (max-width: 1199px) {
+        font-size: 10px;
+      }
+    }
+
+    .character-episode-air-date{
+      font-size: 13px;
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
+
+      @media screen and (max-width: 399px) {
+        left: 15px;
+        bottom: 28px;
+      }
+
+      @media screen and (max-width: 1199px) {
+        font-size: 12px;
+      }
+    } 
+  }
+}

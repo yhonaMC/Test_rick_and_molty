@@ -1,0 +1,111 @@
+.home{
+  padding-top: 20px;
+  a{
+    text-decoration: none;
+  }
+
+  .options-col{
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .list-option{
+      border: none;
+      background-color: rgba(100, 100, 100, 0.7);
+      box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      text-align: center;
+  
+      .description-tag{
+        vertical-align: middle;
+        padding: 20px 30px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #EEE;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        letter-spacing: -0.5px;
+
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          font-size: 20px;
+        }
+      }
+  
+      .image{
+        position: relative;
+        .list-option-img{
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url("../../assets/images/character-placeholder.jpg");
+  
+          @media screen and (max-width: 575px) {
+            width: 100%;
+          }
+  
+          @media screen and (min-width: 576px) and (max-width: 767px) {
+            width: 100%;
+          }
+
+          @media screen and (min-width: 768px) and (max-width: 991px) {
+            width: 198px;
+            height: 198px;
+          }
+  
+          @media screen and (min-width: 992px) and (max-width: 1199px) {
+            width: 277.98px;
+            height: 277.98px;
+          }
+  
+          @media screen and (min-width: 1200px) and (max-width: 1399px) {
+            width: 323px;
+            height: 323px;
+          }
+  
+          @media screen and (min-width: 1400px) {
+            width: 383px;
+            height: 383px;
+          }
+        }
+      }
+  
+      .information{
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        color: #EEE;
+        text-decoration: underline;
+        text-underline-position: under;
+
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          font-size: 12px;
+        }
+
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .characters-option{
+    @media screen and (min-width: 1200px) {
+      padding-right: 30px;
+    }
+  }
+
+  .locations-option{
+    
+    @media screen and (min-width: 1200px) {
+      padding-left: 22.5px;
+      padding-right: 22.5px;
+    }
+  }
+
+  .episodes-option{
+    @media screen and (min-width: 1200px) {
+      padding-left: 30px;
+    }
+  }
+}
