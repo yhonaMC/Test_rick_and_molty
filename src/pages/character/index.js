@@ -52,7 +52,7 @@ function Character() {
             </div>
             <div className=" character-information col-md-9 col-lg-9">
               <p className="character-name">{singleCharacterData.name}</p>
-              <p>Specie: {singleCharacterData.species}</p>
+              <p>Specie:: {singleCharacterData.species}</p>
               <p>Gender: {singleCharacterData.gender}</p>
               {singleCharacterData.type && (
                 <p>Type: {singleCharacterData.type}</p>
